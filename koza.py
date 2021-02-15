@@ -3,6 +3,6 @@ m = [33, 5, 77]
 
 print(f)
 
-print("Hello, kabanchik!")
+print("Hello, kaban!")
 
 
