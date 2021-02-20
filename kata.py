@@ -3,10 +3,21 @@
 
 
 
+
+
+
+
+
+
+
+
 """
 
-import re
+
+def fun(x, y):
+
+    return
 
 
-print(re.findall(r'[3]?[7]', '1A234 1234447'))
 
+print(fun(30, 55))
