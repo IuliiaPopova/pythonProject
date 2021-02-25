@@ -1,20 +1,19 @@
-import pytest
+import fileinput
+
+for line in fileinput.input(files ='akaban.txt'):
+    print(line)
+
+import fileinput
+
+inputData = ''
+
+for line in fileinput.input():
+    inputData += line
 
 
-def func(a):
-    if a < 0:
-        return "negative"
-    elif a == 0:
-        return "zero"
-    else:
-        return "positive"
+def codeHere():
+    # Use the function to return the solution.
+    return inputData
 
 
-@pytest.mark.parametrize("a, result", [
-    (-1, "negative"),
-    (0, "zero"),
-    (1, "positive")
-])
-def test_all_cases(a, result):
-    assert func(a) == result
-
+print(codeHere())
